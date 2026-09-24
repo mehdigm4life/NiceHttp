@@ -1,4 +1,4 @@
-package com.lagradost.nicehttp
+package com.mehdigm.nicehttp
 
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.OkHttpClient

@@ -1,6 +1,6 @@
 # NiceHttp
 
-[![](https://jitpack.io/v/Blatzar/NiceHttp.svg)](https://jitpack.io/#Blatzar/NiceHttp)
+[![](https://jitpack.io/v/mehdigm4life/NiceHttp.svg)](https://jitpack.io/#mehdigm4life/NiceHttp)
 
 A small and simple Android OkHttp wrapper to ease scraping. Mostly for personal use.
 
@@ -23,7 +23,7 @@ maven { url 'https://jitpack.io' }
 In app/build.gradle dependencies:
 
 ```groovy
-implementation 'com.github.Blatzar:NiceHttp:+'
+implementation 'com.github.mehdigm4life:NiceHttp:+'
 ```
 
 ### Scraping a document
@@ -31,7 +31,7 @@ implementation 'com.github.Blatzar:NiceHttp:+'
 ```kotlin
 lifecycleScope.launch {
     val requests = Requests()
-    val doc = requests.get("https://github.com/Blatzar/NiceHttp").document
+    val doc = requests.get("https://github.com/mehdigm4life/NiceHttp").document
     // Using CSS selectors to get the about text
     println(doc.select("p.f4.my-3").text())
 }

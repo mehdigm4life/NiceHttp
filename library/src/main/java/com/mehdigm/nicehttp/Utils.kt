@@ -1,4 +1,4 @@
-package com.lagradost.nicehttp
+package com.mehdigm.nicehttp
 
 import kotlinx.coroutines.CancellableContinuation
 import kotlinx.coroutines.CompletionHandler

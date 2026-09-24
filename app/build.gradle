@@ -7,7 +7,7 @@ android {
     buildToolsVersion = "36.0.0"
 
     defaultConfig {
-        applicationId = "com.lagradost.nicehttp.example"
+        applicationId = "com.mehdigm.nicehttp.example"
         minSdkVersion = 23
         targetSdkVersion = 36
         versionCode = 1
@@ -33,7 +33,7 @@ android {
         }
     }
 
-    namespace = "com.lagradost.nicehttp.example"
+    namespace = "com.mehdigm.nicehttp.example"
 }
 
 dependencies {

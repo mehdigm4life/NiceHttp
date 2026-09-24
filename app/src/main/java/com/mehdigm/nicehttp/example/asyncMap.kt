@@ -1,4 +1,4 @@
-package com.lagradost.nicehttp.example
+package com.mehdigm.nicehttp.example
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking

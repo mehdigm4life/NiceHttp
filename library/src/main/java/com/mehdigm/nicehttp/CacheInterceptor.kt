@@ -1,4 +1,4 @@
-package com.lagradost.nicehttp
+package com.mehdigm.nicehttp
 
 import okhttp3.CacheControl
 import okhttp3.Interceptor

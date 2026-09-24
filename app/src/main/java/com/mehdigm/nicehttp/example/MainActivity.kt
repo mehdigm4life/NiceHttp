@@ -1,4 +1,4 @@
-package com.lagradost.nicehttp.example
+package com.mehdigm.nicehttp.example
 
 import android.os.Bundle
 import android.widget.TextView
@@ -7,8 +7,8 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
-import com.lagradost.nicehttp.Requests
-import com.lagradost.nicehttp.ResponseParser
+import com.mehdigm.nicehttp.Requests
+import com.mehdigm.nicehttp.ResponseParser
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             val requests = Requests(responseParser = parser)
 
             // Example for query selector
-            val doc = requests.get("https://github.com/Blatzar/NiceHttp").document
+            val doc = requests.get("https://github.com/mehdigm4life/NiceHttp").document
             println("Selector description: ${doc.select("p.f4.my-3").text()}")
 
             // Example for json Parser

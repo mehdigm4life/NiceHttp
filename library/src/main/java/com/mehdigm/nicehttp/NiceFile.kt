@@ -1,4 +1,4 @@
-package com.lagradost.nicehttp
+package com.mehdigm.nicehttp
 
 import java.io.File
 

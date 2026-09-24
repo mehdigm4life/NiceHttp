@@ -1,11 +1,11 @@
-package com.lagradost.cli
+package com.mehdigm.cli
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
-import com.lagradost.nicehttp.Requests
-import com.lagradost.nicehttp.ResponseParser
+import com.mehdigm.nicehttp.Requests
+import com.mehdigm.nicehttp.ResponseParser
 import kotlin.reflect.KClass
 
 data class GithubJson(
@@ -45,7 +45,7 @@ suspend fun main() {
     val requests = Requests(responseParser = parser)
 
     // Example for query selector
-    val doc = requests.get("https://github.com/Blatzar/NiceHttp").document
+    val doc = requests.get("https://github.com/mehdigm4life/NiceHttp").document
     println("Selector description: ${doc.select("p.f4.my-3").text()}")
 
     // Example for json Parser

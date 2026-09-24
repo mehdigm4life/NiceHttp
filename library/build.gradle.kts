@@ -17,15 +17,15 @@ publishing {
     }
     publications {
         create<MavenPublication>("maven") {
-            groupId = "com.lagradost"
+            groupId = "com.mehdigm"
             artifactId = "nicehttp"
-            version = "0.4.18"
+            version = "0.5.0"
             from(components["java"])
         }
         create<MavenPublication>("jitpack") {
-            groupId = "com.github.Blatzar" // jipack uses the GitHub username as groupId
+            groupId = "com.github.mehdigm4life" // jipack uses the GitHub username as groupId
             artifactId = "nicehttp"
-            version = "0.4.18"
+            version = "0.5.0"
             from(components["java"])
         }
     }

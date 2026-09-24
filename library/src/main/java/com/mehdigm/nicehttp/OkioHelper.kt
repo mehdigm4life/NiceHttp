@@ -1,4 +1,4 @@
-package com.lagradost.nicehttp
+package com.mehdigm.nicehttp
 
 import okhttp3.ResponseBody
 import okhttp3.internal.closeQuietly
